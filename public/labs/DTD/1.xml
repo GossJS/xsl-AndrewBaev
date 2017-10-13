@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE table PUBLIC "Lab 1 Ex 1"
+	"http:/andrewbaev.tk/kadaktor/1.dtd">
+<table>
+	<student name = "Иванов">
+		<otmetka disciplina="Мультимедия">3</otmetka>
+		<otmetka disciplina="Веб-дизайн">3</otmetka>
+		<otmetka disciplina="Графика">5</otmetka>
+	</student>
+	<student name = "Петрова">
+		<otmetka disciplina="Мультимедия">3</otmetka>
+		<otmetka disciplina="Веб-дизайн">4</otmetka>
+		<otmetka disciplina="Графика">5</otmetka>
+		<otmetka disciplina="Логика">4</otmetka>
+	</student>
+	<student name = "Сидоренко">
+		<otmetka disciplina="Мультимедия">3</otmetka>
+		<otmetka disciplina="Веб-дизайн">4</otmetka>
+		<otmetka disciplina="Графика">5</otmetka>
+		<otmetka disciplina="Логика">4</otmetka>
+	</student>
+</table>

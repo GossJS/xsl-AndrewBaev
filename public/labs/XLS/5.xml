@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:simpleType name="txt">
+	</xs:simpleType>
+
+	<xs:attribute name="имя" type="txt" />
+	<xs:attribute name="дисциплина" type="txt" />
+
+	<xs:simpleType name="отметка_ограничения">
+		<xs:restriction base="xs:integer">
+			<xs:minInclusive value="2" />
+			<xs:maxInclusive value="5" />
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="отметка">
+		<xs:simpleContent>
+			<xs:extension base="отметка_ограничения">
+				<xs:attribute ref="дисциплина" use="required" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<xs:complexType name="studentType">
+		<xs:attribute ref="имя" use="required" />
+		<xs:sequence>
+			<xs:element ref="отметка" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="студент" type="studentType" />
+
+	<xs:complexType name="tableType">
+		<xs:sequence>
+			<xs:element ref="студент" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:element name="таблица" type="tableType" />
+
+</xs:schema>
