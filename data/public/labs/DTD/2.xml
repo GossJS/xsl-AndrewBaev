@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE таблица PUBLIC "Lab 1 Ex 1"
+	"http:/andrewbaev.tk/kadaktor/2.dtd">
+<myportfolio>
+	<site source="http://andrewbaev.tk/about.php">
+		<project name="Mod Friendly Slurper">
+			<achievement name="Анализ чужого кода" />
+			<achievement name="Первый опыт работы с community" />
+			<achievement name="Язык LUA" />
+		</project>
+		<project name="Mod Catcoon House">
+			<achievement name="Общение на английском языке" />
+		</project>
+		<project name="Hunter's Knife">
+		</project>
+		<project name="Audio Equalizer">
+			<achievement name="Физика звука" />
+			<achievement name="Простые алгоритмы" />
+		</project>
+		<project name="GDices">
+			<achievement name="Физика движка" />
+		</project>
+		<project name="Информационная Система Учета Музейных Экспонатов">
+			<achievement name="Работа в команде" />
+			<achievement name="Работа с GitHub" />
+			<achievement name="Работа с заказчиком" />
+		</project>
+		<project name="АИС по замене комплектующих">
+			<achievement name="Работа в команде" />
+			<achievement name="Web разработка" />
+			<achievement name="Я наконец перестал бояться Ajax" />
+		</project>
+	</site>
+	<mycompetiton source="mentalmap" link="https://www.mindmeister.com/preview/951361783/core-knowledges-of-web">
+		<skill in="HTML" value="" />
+		<skill in="CSS" value="" />
+
+		<skill in="JavaScript Native" value="" />
+		<skill in="jQuery" value="" />
+		<skill in="Ajax" value="" />
+		<skill in="TCP/UDP" value="" />
+		<skill in="RJ45. Правильный Порядок" value="" />
+		
+		<skill in="Маршрутизация. Построение Сетей. IP-адресация." value="" />
+	</mycompetition>
+
+</myportfolio>

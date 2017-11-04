@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE page PUBLIC "Lab 1 Ex 3"
+	"http:/andrewbaev.tk/kadaktor/3.dtd">
+<page url="">
+	<ip_table>
+		<ipa addr="083.102.198.1" date="[08/Sep :03:31]">
+		<ipa addr="083.102.198.2" date="[08/Sep :03:32]">
+		<ipa addr="083.102.198.3" date="[08/Sep :03:33]">
+		<ipa addr="083.102.198.2" date="[08/Sep :03:34]">
+		<ipa addr="083.102.198.1" date="[08/Sep :03:35]">
+		<ipa addr="083.102.198.6" date="[08/Sep :03:36]">
+		<ipa addr="083.102.198.3" date="[08/Sep :03:37]">
+		<ipa addr="083.102.198.5" date="[08/Sep :03:38]">
+		<ipa addr="083.102.198.2" date="[08/Sep :03:39]">
+		<ipa addr="083.102.198.4" date="[08/Sep :03:40]">
+		<ipa addr="083.102.198.6" date="[08/Sep :03:41]">
+		<ipa addr="083.102.198.4" date="[08/Sep :03:42]">
+		<ipa addr="083.102.198.1" date="[08/Sep :03:43]">
+		<ipa addr="083.102.198.4" date="[08/Sep :03:44]">
+		<ipa addr="083.102.198.1" date="[08/Sep :03:45]">
+		<ipa addr="083.102.198.5" date="[08/Sep :03:46]">
+		<ipa addr="083.102.198.6" date="[08/Sep :03:47]">
+		<ipa addr="083.102.198.3" date="[08/Sep :03:48]">
+		<ipa addr="083.102.198.1" date="[08/Sep :03:49]">
+		<ipa addr="083.102.198.6" date="[08/Sep :03:50]">
+	</ip_table>
+	<ips>
+		<ip addr="083.102.198.1" frequency="6"/>
+		<ip addr="083.102.198.6" frequency="5"/>
+		<ip addr="083.102.198.2" frequency="4"/>
+		<ip addr="083.102.198.3" frequency="4"/>
+		<ip addr="083.102.198.4" frequency="4"/>
+	</ips>
+</page>
+
+
